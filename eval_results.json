@@ -1,0 +1,20 @@
+{
+  "placeholder": true,
+  "mse": null,
+  "wer": {
+    "clean": null,
+    "noisy": null,
+    "noisereduce": null,
+    "denoised": null
+  },
+  "si_sdr": {
+    "noisy": null,
+    "noisereduce": null,
+    "denoised": null
+  },
+  "pesq": {
+    "noisy": null,
+    "noisereduce": null,
+    "denoised": null
+  }
+}

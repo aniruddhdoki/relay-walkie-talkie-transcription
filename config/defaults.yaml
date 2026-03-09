@@ -1,0 +1,21 @@
+# Relay Denoiser - Default Config
+
+# Audio
+sample_rate: 16000
+n_fft: 512
+hop_length: 128
+n_mels: 128
+
+# Model
+base_channels: 32
+n_levels: 4
+
+# Training
+batch_size: 16
+learning_rate: 0.001
+num_epochs: 10
+val_split: 0.1
+
+# Paths
+checkpoint_path: checkpoints/best.pt
+eval_results_path: eval_results.json
